@@ -42,7 +42,6 @@ namespace Course22
             }
         }
 
-        // Tree class start:
         public Node Root { get; private set; }
       
         public GeneralTree(T rootValue)
