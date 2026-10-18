@@ -52,7 +52,6 @@ public class MinHeap
                  int temp = heap[index];
                  heap[index] = heap[parentIndex];
                  heap[parentIndex] = temp;
-
              */
 
             // Update the index to the parent's index to continue checking up the tree
