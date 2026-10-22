@@ -154,17 +154,9 @@ namespace Course22
         }
         static void Main(string[] args)
         {
-            CategoryNode Mobiles = new CategoryNode("Mobiles");
-            CategoryNode Laptops = new CategoryNode("Laptops");
-            Mobiles.products.Add( new Product("Xiami Redmi Note 9S", Mobiles));
-            Mobiles.products.Add(new Product("Xiami Redmi Note 10S", Mobiles));
-            Mobiles.products.Add(new Product("Xiami Redmi Note 11", Mobiles));
-            Laptops.products.Add( new Product("Lenevo", Laptops));
-            Laptops.products.Add(new Product("HP", Laptops));
-            Laptops.products.Add(new Product("Macbook", Laptops));
-
-            Laptops.Print();
-            Mobiles.Print();
+            Graph graph = new Graph(new List<string> { "A","B","C","D","E","F","G"},Graph.DirectionType.Directed);
+            graph.AddEdge("A", "B", 2);
+            graph.AddEdge("B", "C", 3);
 
             //FileSystem fileSystem = new FileSystem();
             //fileSystem.AddFolder("root", "My New Folder");
