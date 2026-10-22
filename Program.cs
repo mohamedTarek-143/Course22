@@ -160,6 +160,9 @@ namespace Course22
             graph.DisplayGraph();
             graph.AddEdge("B", "A", 5);
             Console.WriteLine("Added a new edge and all");
+
+            // Let's assume this is login feature
+            Console.WriteLine("This is login feature lol");
         }
         //FileSystem fileSystem = new FileSystem();
         //fileSystem.AddFolder("root", "My New Folder");
