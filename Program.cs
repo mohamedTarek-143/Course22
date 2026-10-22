@@ -157,7 +157,7 @@ namespace Course22
             Graph graph = new Graph(new List<string> { "A","B","C","D","E","F","G"},Graph.DirectionType.Directed);
             graph.AddEdge("A", "B", 2);
             graph.AddEdge("B", "C", 3);
-
+            graph.DisplayGraph();
             //FileSystem fileSystem = new FileSystem();
             //fileSystem.AddFolder("root", "My New Folder");
             //fileSystem.AddFile("My New Folder", "myImage.png");
