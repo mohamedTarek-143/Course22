@@ -158,45 +158,46 @@ namespace Course22
             graph.AddEdge("A", "B", 2);
             graph.AddEdge("B", "C", 3);
             graph.DisplayGraph();
-            //FileSystem fileSystem = new FileSystem();
-            //fileSystem.AddFolder("root", "My New Folder");
-            //fileSystem.AddFile("My New Folder", "myImage.png");
-            //fileSystem.AddFile("My New Folder", "cat.png");
-            //fileSystem.AddFile("My New Folder", "hat.jpg");
-            //fileSystem.AddFile("My New Folder", "notes.txt");
-            //fileSystem.AddFolder("root", "Another Folder");
-            //fileSystem.AddFile("Another Folder", "Project.pdf");
-            //fileSystem.AddFile("root", "MainFile.bat");
-            //fileSystem.Display();
-            //// Define vertices
-            //List<string> vertices = new List<string> { "A", "B", "C", "D", "E" };
-
-            //// Create a directed graph
-            //Graph graph = new Graph(vertices, Graph.DirectionType.Directed);
-
-            //// Add edges with weights
-            ////
-            ////A → B: 10 minutes
-            ////A → C: 15 minutes
-            ////B → D: 12 minutes
-            ////C → D: 10 minutes
-            ////B → E: 15 minutes
-            ////D → E: 2 minutes
-            //graph.AddEdge("A", "B", 10);
-            //graph.AddEdge("A", "C", 15);
-            //graph.AddEdge("B", "D", 12);
-            //graph.AddEdge("C", "D", 10);
-            //graph.AddEdge("B", "E", 15);
-            //graph.AddEdge("D", "E", 2);
-
-
-            //// Display the graph
-            //graph.DisplayGraph();
-
-            //// Run Dijkstra's Algorithm from vertex "A"
-            //graph.Dijkstra("A");
+            graph.AddEdge("B", "A", 5);
+            Console.WriteLine("Added a new edge and all");
         }
+        //FileSystem fileSystem = new FileSystem();
+        //fileSystem.AddFolder("root", "My New Folder");
+        //fileSystem.AddFile("My New Folder", "myImage.png");
+        //fileSystem.AddFile("My New Folder", "cat.png");
+        //fileSystem.AddFile("My New Folder", "hat.jpg");
+        //fileSystem.AddFile("My New Folder", "notes.txt");
+        //fileSystem.AddFolder("root", "Another Folder");
+        //fileSystem.AddFile("Another Folder", "Project.pdf");
+        //fileSystem.AddFile("root", "MainFile.bat");
+        //fileSystem.Display();
+        //// Define vertices
+        //List<string> vertices = new List<string> { "A", "B", "C", "D", "E" };
 
+        //// Create a directed graph
+        //Graph graph = new Graph(vertices, Graph.DirectionType.Directed);
+
+        //// Add edges with weights
+        ////
+        ////A → B: 10 minutes
+        ////A → C: 15 minutes
+        ////B → D: 12 minutes
+        ////C → D: 10 minutes
+        ////B → E: 15 minutes
+        ////D → E: 2 minutes
+        //graph.AddEdge("A", "B", 10);
+        //graph.AddEdge("A", "C", 15);
+        //graph.AddEdge("B", "D", 12);
+        //graph.AddEdge("C", "D", 10);
+        //graph.AddEdge("B", "E", 15);
+        //graph.AddEdge("D", "E", 2);
+
+
+        //// Display the graph
+        //graph.DisplayGraph();
+
+        //// Run Dijkstra's Algorithm from vertex "A"
+        //graph.Dijkstra("A");
         //RedBlackTree rbTree = new RedBlackTree();
 
 
