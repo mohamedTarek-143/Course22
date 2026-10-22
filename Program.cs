@@ -162,6 +162,9 @@ namespace Course22
             Console.WriteLine("Added a new edge and all");
             Console.WriteLine("Graph after adding the new edge");
             graph.DisplayGraph();
+
+            // Let's assume this is login feature
+            Console.WriteLine("This is login feature lol");
         }
         //FileSystem fileSystem = new FileSystem();
         //fileSystem.AddFolder("root", "My New Folder");
