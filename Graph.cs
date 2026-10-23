@@ -86,8 +86,7 @@ namespace Course22
             {
                 int counter = 0;
                 int colIndex = _vertexDictionary[vertex];
-                // goes through rows
-                for (int i=0; i < _adjacencyMatrix.GetLength(0); i++)
+                for(int i=0; i < _adjacencyMatrix.GetLength(0); i++)// goes through rows
                 {
                     if (_adjacencyMatrix[i, colIndex] > 0)
                         counter++;
