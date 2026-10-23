@@ -165,6 +165,7 @@ namespace Course22
 
             // Let's assume this is login feature
             Console.WriteLine("This is login feature lol");
+            Console.WriteLine("Hello I am testing something");
         }
         //FileSystem fileSystem = new FileSystem();
         //fileSystem.AddFolder("root", "My New Folder");
