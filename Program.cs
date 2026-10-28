@@ -154,17 +154,17 @@ namespace Course22
         }
         static void Main(string[] args)
         {
-            Graph graph = new Graph(new List<string> { "A","B","C","D","E","F","G"},Graph.DirectionType.Directed);
-            graph.AddEdge("A", "B", 2);
-            graph.AddEdge("B", "C", 3);
-            graph.DisplayGraph();
-            graph.AddEdge("B", "A", 5);
-            Console.WriteLine("Added a new edge and all");
-            Console.WriteLine("Graph after adding the new edge");
-            graph.DisplayGraph();
-
-            // Let's assume this is login feature
-            Console.WriteLine("This is login feature lol");
+            f1(555);
+        }
+        static void f1(int n1)
+        {
+            if(n1 > 0)
+            {
+                Console.WriteLine(n1);
+                f1(n1 - 1);
+                f1(n1 - 1);
+            }
+            
         }
         //FileSystem fileSystem = new FileSystem();
         //fileSystem.AddFolder("root", "My New Folder");
