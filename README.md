@@ -1,2 +1,3 @@
 # Course22
-Added new thingies to the readme file or whatever
+Added new things to the readme file or whatever
+Added new things again.
